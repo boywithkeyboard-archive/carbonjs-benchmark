@@ -3,5 +3,6 @@
   "private": true,
   "dependencies": {
     "@sinclair/carbon": "^0.8.3"
-  }
+  },
+  "type": "module"
 }
