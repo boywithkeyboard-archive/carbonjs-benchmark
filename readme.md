@@ -1,9 +1,33 @@
+**Carbon (Bun)**
+
+```
+Statistics        Avg      Stdev        Max
+  Reqs/sec     41970.86    8473.12   49418.54
+  Latency        1.19ms   743.86us    28.40ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     7.01MB/s
+```
+
+**Bun**
+
+```
+Statistics        Avg      Stdev        Max
+  Reqs/sec     51802.96    6608.66   58241.40
+  Latency        0.96ms     0.95ms    17.45ms
+  HTTP codes:
+    1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     8.61MB/s
+```
+
 **Carbon (Deno)**
 
 ```
 Statistics        Avg      Stdev        Max
-  Reqs/sec     43646.60    6512.09   48419.20
-  Latency        1.14ms   528.37us    28.53ms
+  Reqs/sec     43629.56    6969.04   48262.61
+  Latency        1.14ms   511.07us    38.47ms
   HTTP codes:
     1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
     others - 0
@@ -14,35 +38,35 @@ Statistics        Avg      Stdev        Max
 
 ```
 Statistics        Avg      Stdev        Max
-  Reqs/sec     40805.55   11541.08   52623.29
-  Latency        1.22ms   628.87us    20.04ms
+  Reqs/sec     46910.59    6378.99   51882.20
+  Latency        1.06ms   464.85us    19.98ms
   HTTP codes:
     1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
     others - 0
-  Throughput:     7.73MB/s
+  Throughput:     8.85MB/s
 ```
 
 **Carbon (Node)**
 
 ```
 Statistics        Avg      Stdev        Max
-  Reqs/sec      5094.53    1235.15    9115.60
-  Latency        9.83ms     7.63ms   714.87ms
+  Reqs/sec      5309.03    1115.64    8855.04
+  Latency        9.43ms     4.18ms   379.41ms
   HTTP codes:
     1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
     others - 0
-  Throughput:     1.15MB/s
+  Throughput:     1.20MB/s
 ```
 
 **Node**
 
 ```
 Statistics        Avg      Stdev        Max
-  Reqs/sec     15867.57    4626.77   20770.45
-  Latency        3.15ms     2.79ms   251.07ms
+  Reqs/sec     18398.19    3673.22   21072.63
+  Latency        2.72ms     1.86ms   124.20ms
   HTTP codes:
     1xx - 0, 2xx - 100000, 3xx - 0, 4xx - 0, 5xx - 0
     others - 0
-  Throughput:     3.63MB/s
+  Throughput:     4.21MB/s
 ```
 
