@@ -30,8 +30,8 @@ async function bench(runtime, file) {
 
 let readme = ''
 
-// readme += '**Carbon (Bun)**\n\n```\n' + await bench('bun', 'bun_carbon.js') + '```\n\n'
-// readme += '**Bun**\n\n```\n' + await bench('bun', 'bun.js') + '```\n\n'
+readme += '**Carbon (Bun)**\n\n```\n' + await bench('bun', 'bun_carbon.js') + '```\n\n'
+readme += '**Bun**\n\n```\n' + await bench('bun', 'bun.js') + '```\n\n'
 
 readme += '**Carbon (Deno)**\n\n```\n' + await bench('deno', 'deno_carbon.js') + '```\n\n'
 readme += '**Deno**\n\n```\n' + await bench('deno', 'deno.js') + '```\n\n'
