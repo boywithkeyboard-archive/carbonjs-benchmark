@@ -1,0 +1,7 @@
+{
+  "name": "carbonjs-benchmark",
+  "private": true,
+  "dependencies": {
+    "@sinclair/carbon": "^0.8.3"
+  }
+}
