@@ -1,0 +1,7 @@
+{
+  "deno.enablePaths": [
+    "./bench.js",
+    "./servers/deno_carbon.js",
+    "./servers/deno.js"
+  ]
+}

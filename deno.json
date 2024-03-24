@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "bench": "deno run -A bench.js"
+  }
+}
